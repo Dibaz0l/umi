@@ -1,0 +1,47 @@
+@media screen and (max-width: 992px){
+	html{
+		font-size: 90%;
+	}
+	.title__img{
+			padding-top: 50%;
+		}
+}
+@media screen and (max-width: 768px){
+	
+		html{
+			font-size: 83%;
+		}
+		.title__img{
+			padding-top: 60%;
+		}
+		.form__number{
+			position: static;
+		}
+		.form__lable{
+			margin-top: 1.5rem;
+		}
+		.form__input{
+			margin-bottom: 2rem;
+		}
+		
+		.grid__item{
+		float: none;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 600px){
+	html{
+		font-size: 82%;
+	}
+	.title__img{
+			padding-top: 70%;
+		}
+	.advantage{
+		display: block;
+	}
+	.advantage__item{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 2rem;
+	}
+}
